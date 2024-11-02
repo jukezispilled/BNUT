@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-black text-red-500 p-4 md:p-6 pt-[7.5%] md:pt-[3.5%] font-mono">
-      <div className='absolute top-0 left-0 w-full bg-red-500 py-1 text-xs text-center text-black'>CA: uploading...</div>
+      <div className='absolute top-0 left-0 w-full bg-red-500 py-1 text-xs text-center text-black'>CA: ARX8yL18NnBP6HgnM6U9Jf5S1K5bmQr7urZkQdCbpump</div>
       <header className="flex items-center justify-between mb-4">
         <h1 className="text-xl md:text-3xl font-bold">P.N.U.T (Police Neutralizing Upgraded Terminal)</h1>
         <div className='flex space-x-3'>
