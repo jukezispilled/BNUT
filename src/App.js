@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TypingAnimation from './typing-animation';
 import Home from './Home';
+import MatrixBackground from './Matrix';
 
 function App() {
   const [currentTime, setCurrentTime] = useState('');
@@ -52,7 +53,8 @@ function App() {
   }
 
   return (
-    <div className="h-screen w-screen bg-black text-green-500 font-mono flex flex-col items-center justify-center p-4">
+    <div className="h-screen w-screen text-green-500 font-mono flex flex-col items-center justify-center p-4">
+      <MatrixBackground />
       <div className="absolute bottom-5 right-5 p-2 text-right">
         <div className="text-xl mb-2">
           <TypingAnimation className="text-xl text-right" text={`TIME: ${currentTime}`} duration={120} />
@@ -65,7 +67,7 @@ function App() {
         </div>
       </div>
       <div className="relative w-64 h-64 flex items-center justify-center">
-        <img src="spy.png" alt="Spy" className="w-full h-full object-cover" />
+        <img src="robo2.png" alt="Spy" className="w-full h-full object-cover" />
         <div 
           className="absolute top-0 left-0 w-full bg-red-500 opacity-30 transition-all duration-100" 
           style={{ height: `${scanProgress}%` }}
