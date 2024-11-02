@@ -40,7 +40,7 @@ export default function Home() {
                 </svg>
             </a>
             </div>
-            <img src="robo2.png" className='size-9 md:size-11 border-2 border-red-500 rounded-full object-cover' />
+            <img src="robo2.png" className='size-9 md:size-11 border-2 border-red-500 rounded-full object-cover hidden md:flex' />
         </div>
       </header>
 
